@@ -1,18 +1,3 @@
-# Also, note syntax differences:
-
-HAVING is after GROUP BY and WHERE is before GROUP BY changing the order will produce a syntax error.
-```
-SELECT
-FROM
-JOIN
-  ON
-WHERE
-GROUP BY
-HAVING
-ORDER BY
-LIMIT
-```
-
 # Advanced SQL Queries
 
 If we're looking at our SQL inside our terminal, it helps to use these settings:
@@ -74,6 +59,21 @@ WHERE id = 1;
 ```
 
 ## Advanced Methods
+
+### Also, note syntax differences:
+
+HAVING is after GROUP BY and WHERE is before GROUP BY changing the order will produce a syntax error.
+```
+SELECT
+FROM
+JOIN
+  ON
+WHERE
+GROUP BY
+HAVING
+ORDER BY
+LIMIT
+```
 
 AS
 ```
