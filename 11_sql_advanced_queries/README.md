@@ -1,7 +1,7 @@
 # Also, note syntax differences:
 
 HAVING is after GROUP BY and WHERE is before GROUP BY changing the order will produce a syntax error.
-
+```
 SELECT
 FROM
 JOIN
@@ -11,6 +11,7 @@ GROUP BY
 HAVING
 ORDER BY
 LIMIT
+```
 
 # Advanced SQL Queries
 
